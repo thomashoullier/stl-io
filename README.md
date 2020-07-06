@@ -27,19 +27,19 @@ These structures are exported from `stl-io`, `stl-bin` is the structure
 that is used to read to and write from binary stl files.
 
 ## Exported functions
-* **read-stl** file-in => stl-struct
+**read-stl** file-in => stl-struct
 
 Read a binary stl file *file-in* into a 'stl-bin struct *stl-struct*.
 * *file-in*: pathname designator to the binary stl file.
 * *stl-struct*: a 'stl-bin struct (see above).
 
-* **write-stl** stl-struct file-out
+**write-stl** stl-struct file-out
 
 Write from a 'stl-bin struct *stl-struct* to a binary stl file *file-out*.
 * *file-out*: pathname designator to the output binary stl file.
               Created if it did not exist, superseded otherwise.
 
-* **nvec** v1 v2 v3 => norm-vec
+**nvec** v1 v2 v3 => norm-vec
 
 Helper function to compute the unit normal vector *norm-vec* to a triangle
 described by the three vertices *v1*, *v2*, *v3* according to their
