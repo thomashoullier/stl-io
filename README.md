@@ -98,6 +98,9 @@ Optional checks for writing stl files:
 * [alexandria](https://gitlab.common-lisp.net/alexandria/alexandria)
 * `asdf` and `uiop` functions are used.
 
+## See Also
+* [stl](https://github.com/jl2/stl)
+
 ## References
 1. https://en.wikipedia.org/wiki/STL_%28file\_format%29
 2. http://www.fabbers.com/tech/STL\_Format
